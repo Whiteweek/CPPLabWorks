@@ -60,7 +60,7 @@ int main() {
 		}
 	}
 
-	std::cout << "Число студентов без задолженностей: " << swnd << std::endl;
+	std::cout << "Кол-во студентов без задолженностей: " << swnd << std::endl;
 
 	for (int i = 0; i < numofstudents; ++i) {
 		delete[] students[i].disciplines;
